@@ -2,29 +2,34 @@
 <html lang="en">
 <head>
     <title>Document</title>
-    <link rel="stylesheet" href="inicial.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div>
     <form>
-        <label style="color:rgb(255, 255, 255)"  for="" >usuario</label>
-        <input type="text">
+        <label for="">Nome do usuario:</label>
+        <input type="text" placeholder="nome do usuario" id="usuario">
         <br>
-        <label style="color:rgb(255, 255, 255)"  for="" >e-mail</label>
-        <input type="email">
+        <label for="">Email:</label>
+        <input type="email" placeholder="email" id="email">
         <br>
-        <label style="color:rgb(255, 255, 255)"  for="" >senha</label>
-        <input type="password">
+        <label for="">Senha:</label>
+        <input type="password" placeholder="senha" id="senha">
         <br>
-        <label style="color:rgb(255, 255, 255)"  for="" >filme</label>
-        <input type="text">
+        <label for="">Filme:</label>
+        <input type="text" placeholder="filme" id="filme">
         <br>
-        <label style="color:rgb(255, 255, 255)"  for="" id="ue">musica</label>
-        <input type="text">
-        
+        <label for="">Musica:</label>
+        <input type="text" placeholder="musica" id="musica">
+        <button id="submit" onclick="enviar()">Enviar</button>
     </form>
-<button>Enviar</button>
+ 
     </div>
-
+    <script src="script.js"></script>
+    <script src="firebase.js"></script>
+    <script src="index.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js">
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js">
+        
 </body>
 </html>
