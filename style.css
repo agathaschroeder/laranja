@@ -8,8 +8,11 @@ backdrop-filter: blur( 9px );
 -webkit-backdrop-filter: blur( 9px );
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
-margin-top: 210px;
+margin-top: 60px;
 margin: 350px;
+margin-left: 600px;
+color:rgb(255, 255, 255);
+width: 400px;
 }
 button{
     background: rgba(245, 182, 143, 0.65);
@@ -20,4 +23,5 @@ border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
 color: aliceblue;
 text-align: justify;
+margin: auto;
 }
